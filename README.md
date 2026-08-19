@@ -5,7 +5,6 @@
 **GSoC 2026 Final Submission Report**  
 Mathew Vallejo
 
-[Project Repository](https://github.com/mathewvallejo/GestureCap---GSoC-2026) |
 [Final Report PDF](Pose2OSC_GestureCap_Final%20Report.pdf)
 
 </div>
@@ -139,10 +138,3 @@ of the work. The most challenging aspect of the project came from the AV
 Autoencoder design, which ultimately required being broken down into several
 stages to ensure clear data transfer between calibration, training, runtime
 export, and OSC output.
-
-## Submission Artifact
-
-The PDF version of this report is available here:
-
-[Pose2OSC_GestureCap_Final Report.pdf](Pose2OSC_GestureCap_Final%20Report.pdf)
-
