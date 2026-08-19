@@ -5,7 +5,9 @@
 **GSoC 2026 Final Submission Report**
 
 Organization: INCF
+
 Mentors: Suresh Krishna, Depansh G, Pranjali Puranik, PNinad, Alison Jiaxi Wang
+
 Contributor: Mathew Vallejo
 
 [Final Report PDF](Pose2OSC_GestureCap_Final%20Report.pdf)
