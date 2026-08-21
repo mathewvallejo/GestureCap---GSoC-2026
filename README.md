@@ -5,7 +5,7 @@
 **GSoC 2026 Final Submission Report**
 
 Organization: INCF\
-Mentors: Suresh Krishna, Depansh G, Pranjali Puranik, PNinad, Alison Jiaxi Wang\
+Mentors: Suresh Krishna, Depansh Goel, Pranjali Puranik, PNinad, Alison Jiaxi Wang\
 Contributor: Mathew Vallejo
 
 [Final Report PDF](Pose2OSC_GestureCap_Final%20Report.pdf)
@@ -27,7 +27,9 @@ programming languages such as Pure Data and Max/MSP.
 The established goal for this GSoC contribution was to design and build a
 digital "Hypertheremin" that allows performers to control a digitally modelled
 theremin synthesizer via video input using the same, or similar, physical
-gestures used to control a traditional analog theremin instrument.
+gestures used to control a traditional analog theremin instrument. The theremin
+synthesizer was developed in conjunction with this work by **Mikael Molliex**,
+and can be found here: https://github.com/mikaelmolliex/gesturecap-expressive-instrument
 
 This contribution focuses on the video input stage of the digital instrument.
 Hand tracking data obtained via MediaPipe is used for initial hand recognition
@@ -141,3 +143,12 @@ of the work. The most challenging aspect of the project came from the AV
 Autoencoder design, which ultimately required being broken down into several
 stages to ensure clear data transfer between calibration, training, runtime
 export, and OSC output.
+
+## Acknowledgements
+Thank you to **Suresh Krishna** and **Deepansh Goel** for their guidance during 
+this project. Big thanks to **Mikael Molliex** as well for his dedicated problem
+solving and collaboration.
+
+I'd also like to thank **Gilles Grenon** for his contributions to the computer vision
+components of the project, as well as **Aleks Schürmer** and **Grégoire Blanc** for
+their expert musical consult and performance video contributions.
